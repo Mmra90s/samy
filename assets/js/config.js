@@ -27,7 +27,7 @@ const WEDDING_CONFIG = {
 
   // ---------- التاريخ والوقت ----------
   event: {
-    dateISO: "2026-08-07T21:00:00",
+    dateISO: "2026-08-07T21:30:00",
     dateDisplay: "يوم الجمعة 8/7",
     durationHours: 4,
   },
