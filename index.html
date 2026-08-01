@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">أمل و سامي | دعوة زفاف</title>
+    <meta name="description" content="دعوة زفاف - ننتظركم لمشاركتنا فرحة زفافنا">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=El+Messiri:wght@400;500;600;700&family=Aref+Ruqaa:wght@400;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Tajawal:wght@200;300;400;500;700;800&display=swap" rel="stylesheet">
+    
+    <!-- AOS Animation -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- ===== GATE SCREEN (First thing user sees) ===== -->
+    <div class="gate-screen" id="gateScreen">
+        <div class="gate-bg-layer"></div>
+        <div class="gate-content">
+            <!-- Ornament Top -->
+            <div class="gate-ornament">
+                <svg width="120" height="30" viewBox="0 0 120 30">
+                    <line x1="0" y1="15" x2="45" y2="15" stroke="#d4a574" stroke-width="1" opacity="0.5"/>
+                    <circle cx="60" cy="15" r="4" fill="none" stroke="#d4a574" stroke-width="1" opacity="0.6"/>
+                    <line x1="75" y1="15" x2="120" y2="15" stroke="#d4a574" stroke-width="1" opacity="0.5"/>
+                </svg>
+            </div>
+
+            <!-- Envelope with Wax Seal -->
+            <div class="envelope-wrapper" id="envelopeWrapper">
+                <div class="envelope">
+                    <div class="envelope-top"></div>
+                    <div class="envelope-card"></div>
+                    <div class="wax-seal" id="waxSeal">
+                        <span class="seal-initials">أ.س</span>
+                    </div>
+                </div>
+                <p class="open-hint">اضغط لفتح الدعوة</p>
+            </div>
+
+            <!-- Names -->
+            <div class="gate-names">
+                <span class="gate-bname">أمل</span>
+                <span class="gate-amp">&</span>
+                <span class="gate-gname">سامي</span>
+            </div>
+
+            <!-- Ornament Bottom -->
+            <div class="gate-ornament">
+                <svg width="120" height="30" viewBox="0 0 120 30">
+                    <line x1="0" y1="15" x2="45" y2="15" stroke="#d4a574" stroke-width="1" opacity="0.5"/>
+                    <circle cx="60" cy="15" r="4" fill="none" stroke="#d4a574" stroke-width="1" opacity="0.6"/>
+                    <line x1="75" y1="15" x2="120" y2="15" stroke="#d4a574" stroke-width="1" opacity="0.5"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== NAVIGATION BAR ===== -->
+    <nav class="nav-bar" id="navBar">
+        <div class="nav-glass">
+            <div class="nav-items">
+                <a href="#hero" class="nav-link active" data-section="hero">
+                    <span class="nav-icon">🏠</span>
+                    <span class="nav-label">الرئيسية</span>
+                </a>
+                <a href="#invitation" class="nav-link" data-section="invitation">
+                    <span class="nav-icon">💌</span>
+                    <span class="nav-label">الدعوة</span>
+                </a>
+                <a href="#date" class="nav-link" data-section="date">
+                    <span class="nav-icon">📅</span>
+                    <span class="nav-label">الموعد</span>
+                </a>
+                <a href="#timeline" class="nav-link" data-section="timeline">
+                    <span class="nav-icon">🕐</span>
+                    <span class="nav-label">البرنامج</span>
+                </a>
+                <a href="#gallery" class="nav-link" data-section="gallery">
+                    <span class="nav-icon">📸</span>
+                    <span class="nav-label">الصور</span>
+                </a>
+                <a href="#location" class="nav-link" data-section="location">
+                    <span class="nav-icon">📍</span>
+                    <span class="nav-label">المكان</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== PARTICLES ===== -->
+    <div id="particles-js"></div>
+    
+    <!-- ===== FLOATING SHAPES ===== -->
+    <div class="floating-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        <div class="shape shape-4"></div>
+    </div>
+
+    <!-- ===== CURSOR GLOW ===== -->
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <!-- ===== MAIN CONTENT ===== -->
+    <div class="main-content" id="mainContent">
+
+        <!-- ============ HERO ============ -->
+        <section class="hero-section" id="hero">
+            <div class="hero-bg-layer"></div>
+            <div class="hero-content">
+                <!-- Decorative Line -->
+                <div class="hero-deco" data-aos="fade-down" data-aos-duration="1200">
+                    <svg width="60" height="20" viewBox="0 0 60 20" fill="none">
+                        <path d="M0 10 Q15 0 30 10 Q45 20 60 10" stroke="#d4a574" stroke-width="1" fill="none" opacity="0.6"/>
+                    </svg>
+                </div>
+
+                <!-- Bismillah -->
+                <div class="bismillah" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="300">
+                    <span>بسم الله الرحمن الرحيم</span>
+                </div>
+
+                <!-- Couple Names -->
+                <div class="couple-names" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="600">
+                    <span class="name bride-name">أمل</span>
+                    <span class="ampersand">&</span>
+                    <span class="name groom-name">سامي</span>
+                </div>
+
+                <!-- Subtitle -->
+                <div class="hero-subtitle" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="900">
+                    <span>يدعوانكم لمشاركتهم فرحة زفافهم</span>
+                </div>
+
+                <!-- Scroll Down -->
+                <div class="scroll-indicator" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1200">
+                    <div class="scroll-mouse">
+                        <div class="scroll-wheel"></div>
+                    </div>
+                    <span>اكتشف الدعوة</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ INVITATION ============ -->
+        <section class="invitation-section" id="invitation">
+            <div class="glass-card" data-aos="fade-up" data-aos-duration="1500">
+                <div class="card-shimmer"></div>
+                <div class="section-content">
+                    <h2 class="section-title">رسالة الدعوة</h2>
+                    
+                    <div class="ayah-box" data-aos="fade-up" data-aos-delay="200">
+                        <div class="ayah-corner top-right"></div>
+                        <div class="ayah-corner bottom-left"></div>
+                        <p class="ayah-text" id="ayah-text">وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً ۚ إِنَّ فِي ذَٰلِكَ لَآيَاتٍ لِّقَوْمٍ يَتَفَكَّرُونَ</p>
+                        <span class="ayah-ref" id="ayah-ref">الروم: 21</span>
+                    </div>
+
+                    <div class="invite-message" data-aos="fade-up" data-aos-delay="400">
+                        <p id="invite-text">نتشرف بدعوتكم لمشاركتنا فرحة زفافنا، والاحتفال معنا بهذه المناسبة المباركة.</p>
+                    </div>
+
+                    <div class="couple-signature" data-aos="zoom-in" data-aos-delay="600">
+                        <span class="sig-name" id="sig-bride">أمل</span>
+                        <span class="sig-and">&</span>
+                        <span class="sig-name" id="sig-groom">سامي</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ DATE ============ -->
+        <section class="date-section" id="date">
+            <div class="glass-card" data-aos="zoom-in" data-aos-duration="1500">
+                <div class="card-shimmer"></div>
+                <div class="section-content">
+                    <h2 class="section-title">موعد الحفل</h2>
+                    
+                    <div class="date-display" data-aos="fade-up" data-aos-delay="200">
+                        <div class="date-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="28" height="28">
+                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                                <line x1="16" y1="2" x2="16" y2="6"/>
+                                <line x1="8" y1="2" x2="8" y2="6"/>
+                                <line x1="3" y1="10" x2="21" y2="10"/>
+                            </svg>
+                        </div>
+                        <div class="date-info">
+                            <span class="date-text" id="date-display">يوم الجمعة 8/7</span>
+                            <span class="time-text">9:00 مساءً</span>
+                        </div>
+                    </div>
+
+                    <div class="countdown-container" data-aos="fade-up" data-aos-delay="500">
+                        <h3>العد التنازلي للحفل</h3>
+                        <div class="countdown">
+                            <div class="countdown-item">
+                                <span class="count-number" id="cd-days">00</span>
+                                <span class="count-label">يوم</span>
+                            </div>
+                            <div class="countdown-separator">:</div>
+                            <div class="countdown-item">
+                                <span class="count-number" id="cd-hours">00</span>
+                                <span class="count-label">ساعة</span>
+                            </div>
+                            <div class="countdown-separator">:</div>
+                            <div class="countdown-item">
+                                <span class="count-number" id="cd-minutes">00</span>
+                                <span class="count-label">دقيقة</span>
+                            </div>
+                            <div class="countdown-separator">:</div>
+                            <div class="countdown-item">
+                                <span class="count-number" id="cd-seconds">00</span>
+                                <span class="count-label">ثانية</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="#" id="add-calendar" class="btn-glass" data-aos="fade-up" data-aos-delay="700">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="18" height="18">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                            <line x1="12" y1="14" x2="12" y2="18"/>
+                            <line x1="10" y1="16" x2="14" y2="16"/>
+                        </svg>
+                        أضف للتقويم
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ TIMELINE ============ -->
+        <section class="timeline-section" id="timeline">
+            <div class="glass-card" data-aos="fade-up" data-aos-duration="1500">
+                <div class="card-shimmer"></div>
+                <div class="section-content">
+                    <h2 class="section-title">برنامج الحفل</h2>
+                    <div class="timeline">
+                        <div class="timeline-line"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ GALLERY ============ -->
+        <section class="gallery-section" id="gallery">
+            <div class="section-content">
+                <h2 class="section-title">لحظات من قصتنا</h2>
+                <div class="gallery-grid"></div>
+            </div>
+        </section>
+
+        <!-- ============ LOCATION ============ -->
+        <section class="location-section" id="location">
+            <div class="glass-card" data-aos="zoom-in" data-aos-duration="1500">
+                <div class="card-shimmer"></div>
+                <div class="section-content">
+                    <h2 class="section-title">مكان الحفل</h2>
+                    <div class="location-info" data-aos="fade-up" data-aos-delay="200">
+                        <div class="location-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="24" height="24">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                        </div>
+                        <div class="location-details">
+                            <h3 id="location-name">قاعة كريستال، السنبلاوين</h3>
+                        </div>
+                    </div>
+                    <a href="#" id="location-map" class="btn-glass" target="_blank" data-aos="fade-up" data-aos-delay="400">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="18" height="18">
+                            <polygon points="3 11 22 2 13 21 11 13 3 11"/>
+                        </svg>
+                        عرض على الخريطة
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ FOOTER ============ -->
+        <footer class="site-footer">
+            <div class="footer-content">
+                <div class="footer-ornament">
+                    <svg width="80" height="20" viewBox="0 0 80 20">
+                        <line x1="0" y1="10" x2="30" y2="10" stroke="#d4a574" stroke-width="1" opacity="0.4"/>
+                        <circle cx="40" cy="10" r="3" fill="#b76e79" opacity="0.5"/>
+                        <line x1="50" y1="10" x2="80" y2="10" stroke="#d4a574" stroke-width="1" opacity="0.4"/>
+                    </svg>
+                </div>
+                <p>نتشرف بحضوركم ومشاركتنا الفرحة</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="assets/js/config.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
